@@ -12,11 +12,19 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	min-height: 100vh;
 	background: url("./images/bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+h1{
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	margin: 20px 0;
 }
 
 .overlay{
